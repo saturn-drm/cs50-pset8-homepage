@@ -186,7 +186,7 @@ div.magicshow {
     transform: none;
 }
 
-div.proj *{
+div.proj {
     transition: all .3s;
 }
 
@@ -276,8 +276,10 @@ button:hover {
     color: var(--hoverrow);
 }
 
-div.text-center {
+.text-center {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section#specify {
